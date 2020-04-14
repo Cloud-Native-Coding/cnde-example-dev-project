@@ -1,0 +1,10 @@
+
+resources:
+  - stage-mysql.yaml
+  - players-service.yaml
+  - players-ingress.yaml
+
+secretGenerator:
+- name: stage-mysql-pass
+  literals:
+  - password=UyH2EccNqK
