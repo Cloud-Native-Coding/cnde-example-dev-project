@@ -20,7 +20,7 @@ sudo apt install nodejs
 sudo apt install npm
 ```
 
-1. Install nodemon with `npm install nodemon -g`
+1. Install nodemon with `sudo npm install nodemon -g`
 2. execute `npm install`
 3. Start application with `nodemon app.js`
 4. point your browser to `players.norbert.kubeplatform.ch.innoq.io`
